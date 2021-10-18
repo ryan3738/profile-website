@@ -12,10 +12,6 @@
         "label": "Home"
       },
       {
-        "href": "about",
-        "label": "About"
-      },
-      {
         "href": "posts",
         "label": "Projects"
       }
