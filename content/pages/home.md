@@ -1,6 +1,6 @@
 ---
 blocks:
-  - tagline: Check out this edit!
+  - tagline: ''
     headline: 'Hi, my name is Ryan. I am a Front End Developer living in Bellingham, WA. '
     text: >
       This project is set up to show you the basics of working with Tina. You're
