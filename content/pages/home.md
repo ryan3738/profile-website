@@ -3,7 +3,7 @@ blocks:
   - tagline: Check out this edit!
     headline: 'Hi, my name is Ryan'
     text: >-
-      I am a Software Developer living in Bellingham, WA interested in creating
+      I'm a Software Developer living in Bellingham, WA interested in creating
       responsive, scalable web applications. I'm currently using React.js,
       Next.js, HTML, CSS, Javascript, Typescript, PostgreSQL, & Node. When I'm
       not coding you can find me mountain biking, cooking, or traveling!
@@ -20,10 +20,10 @@ blocks:
     _template: hero
   - items:
       - icon:
-          color: red
+          color: teal
           style: float
           name: code
-        title: Amazing Feature
+        title: Front End
         text: >-
           Aliquam blandit felis rhoncus, eleifend ipsum in, condimentum nibh.
           Praesent ac faucibus risus, eu lacinia enim.
