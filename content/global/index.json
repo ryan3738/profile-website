@@ -20,9 +20,10 @@
   "footer": {
     "color": "default",
     "social": {
-      "facebook": "/",
-      "twitter": "/",
-      "instagram": "/"
+      "facebook": "",
+      "twitter": "",
+      "instagram": "",
+      "github": "https://github.com/ryan3738"
     }
   },
   "theme": {
