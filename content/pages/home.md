@@ -2,22 +2,14 @@
 blocks:
   - tagline: ''
     headline: 'Hi, my name is Ryan. I am a Front End Developer living in Bellingham, WA. '
-    text: >
+    text: >-
       This project is set up to show you the basics of working with Tina. You're
       looking at the landing page, which pulls content from
       `content/pages/home.md`, components from `components/blocks`, and puts
       them all together in `pages/[filename].tsx`, all based on a schema defined
       in `.tina/schema.ts`.
     actions:
-      - label: CHECK THIS OUT!!!
-        type: button
-        icon: true
-        link: /
-      - label: Get Started
-        type: button
-        icon: true
-        link: /posts
-      - label: Read Blog
+      - label: My Projects
         type: link
         icon: false
         link: /posts
