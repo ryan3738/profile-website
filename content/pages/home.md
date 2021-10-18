@@ -1,12 +1,12 @@
 ---
 blocks:
   - tagline: Check out this edit!
-    headline: "Hi, my name is Ryan. \U0001F44B"
+    headline: 'Hi, my name is Ryan'
     text: >-
       I am a Software Developer living in Bellingham, WA interested in creating
       responsive, scalable web applications. I'm currently using React.js,
-      Next.js, HTML, CSS, Apollo, GraphQL, Typescript, PostgreSQL, & Node. When
-      I'm not coding you can find me mountain biking, cooking, or traveling!
+      Next.js, HTML, CSS, Javscript, Typescript, PostgreSQL, & Node. When I'm
+      not coding you can find me mountain biking, cooking, or traveling!
     actions:
       - label: Projects
         type: link
