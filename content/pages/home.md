@@ -1,15 +1,18 @@
 ---
 blocks:
-  - tagline: ''
+  - tagline: Check out this edit!
     headline: 'Hi, my name is Ryan. I am a Front End Developer living in Bellingham, WA. '
-    text: >-
-      This project is set up to show you the basics of working with Tina. You're
-      looking at the landing page, which pulls content from
-      `content/pages/home.md`, components from `components/blocks`, and puts
-      them all together in `pages/[filename].tsx`, all based on a schema defined
-      in `.tina/schema.ts`.
+    text: "\\# Hi, I’m Ryan Fraser \U0001F44B\n\n\\- I am a Software Developer interested in creating responsive, scalable web applications using modern web technologies.\n\n\\- I'm currently using React.js, Next.js, HTML5, CSS, Apollo, GraphQL, Typescript, PostgreSQL, KeystoneJS & Node\n\n\\- I’m looking to collaborate with others that are constantly learning and coming up with creative ideas to solve difficult problems\n\n\\- If you would like to get in touch you can reach me at ryan3738@gmail.com\n\n\\- When I'm not coding you can find me mountain biking, cooking, or traveling!"
     actions:
-      - label: My Projects
+      - label: CHECK THIS OUT!!!
+        type: button
+        icon: true
+        link: /
+      - label: Get Started
+        type: button
+        icon: true
+        link: /posts
+      - label: Read Blog
         type: link
         icon: false
         link: /posts
