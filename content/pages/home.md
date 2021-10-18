@@ -28,10 +28,10 @@ blocks:
           Aliquam blandit felis rhoncus, eleifend ipsum in, condimentum nibh.
           Praesent ac faucibus risus, eu lacinia enim.
       - icon:
-          color: primary
+          color: purple
           style: float
-          name: like
-        title: This Is a Feature
+          name: code
+        title: Back End
         text: Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.
       - icon:
           color: green
@@ -45,3 +45,4 @@ blocks:
     _template: features
 ---
 
+undefined
