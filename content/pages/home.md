@@ -1,7 +1,7 @@
 ---
 blocks:
   - tagline: Check out this edit!
-    headline: Welcome to the Tina Starter.
+    headline: 'Hi, my name is Ryan. I am a Front End Developer living in Bellingham, WA. '
     text: >
       This project is set up to show you the basics of working with Tina. You're
       looking at the landing page, which pulls content from
