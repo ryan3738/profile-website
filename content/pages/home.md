@@ -1,18 +1,14 @@
 ---
 blocks:
   - tagline: Check out this edit!
-    headline: 'Hi, my name is Ryan. I am a Front End Developer living in Bellingham, WA. '
-    text: "\\# Hi, I’m Ryan Fraser \U0001F44B\n\n\\- I am a Software Developer interested in creating responsive, scalable web applications using modern web technologies.\n\n\\- I'm currently using React.js, Next.js, HTML5, CSS, Apollo, GraphQL, Typescript, PostgreSQL, KeystoneJS & Node\n\n\\- I’m looking to collaborate with others that are constantly learning and coming up with creative ideas to solve difficult problems\n\n\\- If you would like to get in touch you can reach me at ryan3738@gmail.com\n\n\\- When I'm not coding you can find me mountain biking, cooking, or traveling!"
+    headline: "Hi, my name is Ryan. \U0001F44B"
+    text: >-
+      I am a Software Developer living in Bellingham, WA interested in creating
+      responsive, scalable web applications. I'm currently using React.js,
+      Next.js, HTML, CSS, Apollo, GraphQL, Typescript, PostgreSQL, & Node. When
+      I'm not coding you can find me mountain biking, cooking, or traveling!
     actions:
-      - label: CHECK THIS OUT!!!
-        type: button
-        icon: true
-        link: /
-      - label: Get Started
-        type: button
-        icon: true
-        link: /posts
-      - label: Read Blog
+      - label: Projects
         type: link
         icon: false
         link: /posts
