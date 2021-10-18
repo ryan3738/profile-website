@@ -1,6 +1,6 @@
 ---
 blocks:
-  - tagline: ''
+  - tagline: Check out this edit!
     headline: Welcome to the Tina Starter.
     text: >
       This project is set up to show you the basics of working with Tina. You're
@@ -54,3 +54,4 @@ blocks:
     _template: features
 ---
 
+undefined
