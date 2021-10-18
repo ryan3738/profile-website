@@ -5,7 +5,7 @@ blocks:
     text: >-
       I am a Software Developer living in Bellingham, WA interested in creating
       responsive, scalable web applications. I'm currently using React.js,
-      Next.js, HTML, CSS, Javscript, Typescript, PostgreSQL, & Node. When I'm
+      Next.js, HTML, CSS, Javascript, Typescript, PostgreSQL, & Node. When I'm
       not coding you can find me mountain biking, cooking, or traveling!
     actions:
       - label: Projects
@@ -14,8 +14,8 @@ blocks:
         link: /posts
     image:
       src: >-
-        https://res.cloudinary.com/forestry-demo/image/upload/v1628102029/tina-cloud-starter/tina-illustration.WebP
-      alt: Tina
+        http://res.cloudinary.com/ryan3738/image/upload/v1634600032/Profile_Pic_czp2zq.jpg
+      alt: Ryan Fraser's portrait
     color: default
     _template: hero
   - items:
@@ -45,4 +45,3 @@ blocks:
     _template: features
 ---
 
-undefined
