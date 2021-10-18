@@ -25,8 +25,8 @@ blocks:
           name: code
         title: Front End
         text: >-
-          Aliquam blandit felis rhoncus, eleifend ipsum in, condimentum nibh.
-          Praesent ac faucibus risus, eu lacinia enim.
+          Next.js | React.js | Javascript | Typescript | Vercel | GraphQL |
+          Apollo Client | Styled-Components
       - icon:
           color: purple
           style: float
