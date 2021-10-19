@@ -2,38 +2,19 @@
 title: Frasers Website
 author: content/authors/ryan.md
 date: '2021-07-15T20:30:00.000Z'
+heroImg: >-
+  http://res.cloudinary.com/ryan3738/image/upload/v1634604534/frasers-hero_cuslkj.jpg
 excerpt: >-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-  incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo
-  vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla
-  facilities morbi tempus.
+  Business website for Frasers Gourmet Hideaway with a basic CMS and
+  authentication to allow for menu & website changes.
 ---
 
-Lorem markdownum evinctus _ut cape_ adhaeret gravis licet progenies ut haesit
-maxima ille. Est scorpius, mori vel in visaeque Haemoniis viperei furoris e ad
-vasti, **distulit**. Crudus sub **coniuge iam**: dea propera sive?
+#### Description: 
+Business website for Frasers Gourmet Hideaway with a basic CMS and authentication to allow for menu & website changes.
 
-- Quis illa aut traherent obliquis omnes vitare
-- Quid non crimen
-- Aeneia Paridis
-- Sparten miserande tremuere
-- Morte Phineus caeleste anguigenae sitae nolet sceleri
+####  Tech Used:
+Next.js | Javascript | Typescript | Vercel | React.js | Netlify CMS | NextAuth | Yarn | ESlint | Prettier
 
-Te procorum, in gemini quondam cannis. Telasque [abibat ad
-pinuque](http://eratloco.io/velut.html) cessit lupus postquam.
+[Live Web Site](https://frasersgh.com/)
 
-## Simulasse optavit aquae plangor pectora data hostia
-
-Rata nec nive mihi pluvialis Ceycis via ardor devovitque illas. Tamen nocent
-ictibus myricae et puto, trahunt, coluere oculis. Pariter post ferrum cum
-moriens, videt gentis terram murra quoniam.
-
-> Dextra posito. Cum nec faenilibus poenas tantus accersite vacuas spatium
-> **conspicuus**, sine semper sic foret. Nostro **vero haeret** velamina media,
-> crimen esse, defensatque ulmus. Ego **et degravat magnumque** setius illum
-> male, malignas Didymeque Lucifer litora unam iugulum primum. Que materno,
-> harenas, solent vero telis humo canna nubila!
-
-Regna tenus; dum qui sed; igni nisi mihi fluctibus, cum viridi rogabat haberet
-tecto seducunt pares, omne. Dracone eventu, Zephyro, humum boum: huc, torvi
-pericula cratera.
+[GitHub Repo](https://github.com/ryan3738/frasers-nextjs-site)
