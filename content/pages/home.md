@@ -32,8 +32,11 @@ blocks:
           style: float
           name: code
         title: Back End
-        text: Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.
+        text: >-
+          PostgreSQL | Prisma | GraphQL | Node | Typescript | KeystoneJS CMS |
+          Digital Ocean
     color: tint
     _template: features
 ---
 
+undefined
