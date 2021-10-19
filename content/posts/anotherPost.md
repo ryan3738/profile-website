@@ -2,6 +2,8 @@
 title: Bellingham 3D eCommerce Web App
 author: content/authors/ryan.md
 date: '2021-10-18T20:30:00.000Z'
+heroImg: >-
+  http://res.cloudinary.com/ryan3738/image/upload/v1634605274/bham-3d-cart_ftgtdj.jpg
 excerpt: >-
   A full-stack eCommerce web app featuring a frontend coded using
   React.js/Next.js and integrated with the backend using a GraphQL API. The
@@ -10,6 +12,7 @@ excerpt: >-
   frontend client is hosted on Vercel, while the backend client is hosted on
   Digital Ocean. The data is stored in a PostgreSQL database on Supabase.
 ---
+
 
 ### Frontend
 #### Description:
