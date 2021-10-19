@@ -11,7 +11,8 @@ excerpt: >-
   Digital Ocean. The data is stored in a PostgreSQL database on Supabase.
 ---
 
-[![Bellingham 3D main page and cart](/assets/images/bham-3d-cart.jpg)*Live web app homepage*](https://bellingham3d.com/)
+
+[![Bellingham 3D main page and cart](https://github.com/ryan3738/ryan3738/blob/main/assets/images/bham-3d-cart.jpg)*Live web app homepage*](https://bellingham3d.com/)
 ### Frontend
 #### Description:
 Frontend for an e-commerce web application hosted on Vercel. Written using React.js and integrated with the backend using a GraphQL API.
