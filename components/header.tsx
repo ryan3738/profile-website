@@ -57,7 +57,7 @@ export const Header = ({ data }) => {
                   }}
                   className="inline-block h-auto w-10 mr-1"
                 />{" "}
-                Ryan Fraser
+                Ryan
               </a>
             </Link>
           </h4>
