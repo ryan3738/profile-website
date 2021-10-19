@@ -1,6 +1,6 @@
 ---
 title: Bellingham 3D eCommerce Web App
-author: content/authors/napoleon.md
+author: content/authors/ryan.md
 date: '2021-10-18T20:30:00.000Z'
 excerpt: >-
   A full-stack eCommerce web app featuring a frontend coded using
@@ -10,6 +10,7 @@ excerpt: >-
   frontend client is hosted on Vercel, while the backend client is hosted on
   Digital Ocean. The data is stored in a PostgreSQL database on Supabase.
 ---
+
 
 
 [![Bellingham 3D main page and cart](https://github.com/ryan3738/ryan3738/blob/main/assets/images/bham-3d-cart.jpg)*Live web app homepage*](https://bellingham3d.com/)
