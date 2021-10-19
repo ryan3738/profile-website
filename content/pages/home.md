@@ -25,7 +25,7 @@ blocks:
           name: code
         title: Front End
         text: >-
-          Next.js | React.js | Javascript | Typescript | Vercel | GraphQL |
+          React.js | Next.js | Javascript | Typescript | Vercel | GraphQL |
           Apollo Client | Styled-Components
       - icon:
           color: purple
