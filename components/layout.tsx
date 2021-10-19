@@ -9,7 +9,7 @@ export const Layout = ({ rawData = "", data = layoutData, children }) => {
   return (
     <>
       <Head>
-        <title>Tina</title>
+        <title>Ryan Fraser</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         {data.theme.font === "nunito" && (
           <>
@@ -78,7 +78,7 @@ export const layoutQueryFragment = `
           instagram
           github
         }
-      }  
+      }
       theme {
         color
         icon
