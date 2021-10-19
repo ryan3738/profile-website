@@ -10,7 +10,7 @@ blocks:
     actions:
       - label: Projects
         type: link
-        icon: false
+        icon: true
         link: /posts
     image:
       src: >-
