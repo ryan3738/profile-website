@@ -1,7 +1,7 @@
 ---
 blocks:
-  - tagline: Check out this edit!
-    headline: 'Hi, my name is Ryan'
+  - tagline: ''
+    headline: 'Hi, my name is Ryan Fraser'
     text: >-
       I'm a Software Developer living in Bellingham, WA interested in creating
       responsive, scalable web applications. I'm currently using React.js,
@@ -33,16 +33,7 @@ blocks:
           name: code
         title: Back End
         text: Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.
-      - icon:
-          color: green
-          style: float
-          name: palette
-        title: Configurable Theme
-        text: >-
-          Edit global theme configuration with Tina. Change your theme's primary
-          color, font, or icon set.
     color: tint
     _template: features
 ---
 
-undefined
