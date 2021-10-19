@@ -1,36 +1,40 @@
 ---
-title: Just Another Blog Post
+title: Bellingham 3D eCommerce Web App
 author: content/authors/napoleon.md
-date: '2021-07-03T20:30:00.000Z'
-excerpt: "Lorem markdownum evinctus ut cape adhaeret gravis licet progenies ut haesit maxima ille. Est scorpius, mori vel in visaeque Haemoniis viperei furoris e ad vasti, distulit. Crudus sub coniuge iam: dea propera sive?"
-_template: article
+date: '2021-10-18T20:30:00.000Z'
+excerpt: >-
+  A full-stack eCommerce web app featuring a frontend coded using
+  React.js/Next.js and integrated with the backend using a GraphQL API. The
+  backend is coded using KeystoneJS and Typescript. It includes an admin UI for
+  managing the site and products which are exposed using a GraphQL API. The
+  frontend client is hosted on Vercel, while the backend client is hosted on
+  Digital Ocean. The data is stored in a PostgreSQL database on Supabase.
 ---
 
-Lorem markdownum evinctus _ut cape_ adhaeret gravis licet progenies ut haesit
-maxima ille. Est scorpius, mori vel in visaeque Haemoniis viperei furoris e ad
-vasti, **distulit**. Crudus sub **coniuge iam**: dea propera sive?
+\[!\[Bellingham 3D main page and cart\](/assets/images/bham-3d-cart.jpg)*Live web app homepage*\]([https://bellingham3d.com/](https://bellingham3d.com/ "https://bellingham3d.com/"))
 
-- Quis illa aut traherent obliquis omnes vitare
-- Quid non crimen
-- Aeneia Paridis
-- Sparten miserande tremuere
-- Morte Phineus caeleste anguigenae sitae nolet sceleri
+\### Frontend
 
-Te procorum, in gemini quondam cannis. Telasque [abibat ad
-pinuque](http://eratloco.io/velut.html) cessit lupus postquam.
+\#### Description:
 
-## Simulasse optavit aquae plangor pectora data hostia
+Frontend for an e-commerce web application hosted on Vercel. Written using React.js and integrated with the backend using a GraphQL API.
 
-Rata nec nive mihi pluvialis Ceycis via ardor devovitque illas. Tamen nocent
-ictibus myricae et puto, trahunt, coluere oculis. Pariter post ferrum cum
-moriens, videt gentis terram murra quoniam.
+\#### Tech Used
 
-> Dextra posito. Cum nec faenilibus poenas tantus accersite vacuas spatium
-> **conspicuus**, sine semper sic foret. Nostro **vero haeret** velamina media,
-> crimen esse, defensatque ulmus. Ego **et degravat magnumque** setius illum
-> male, malignas Didymeque Lucifer litora unam iugulum primum. Que materno,
-> harenas, solent vero telis humo canna nubila!
+Next.js | React.js | Javascript | Typescript | Vercel | GraphQL | Apollo Client | Styled-Components
 
-Regna tenus; dum qui sed; igni nisi mihi fluctibus, cum viridi rogabat haberet
-tecto seducunt pares, omne. Dracone eventu, Zephyro, humum boum: huc, torvi
-pericula cratera.
+\[Live Web App\]([https://bellingham3d.com/](https://bellingham3d.com/ "https://bellingham3d.com/"))
+
+\[GitHub Repo\]([https://github.com/ryan3738/bellingham3d-frontend](https://github.com/ryan3738/bellingham3d-frontend "https://github.com/ryan3738/bellingham3d-frontend"))
+
+\### Backend
+
+\#### Description:
+
+The backend for an e-commerce web application. Written using KeystoneJS and typescript. Includes an admin UI for managing the site and products. Exposes database information using a GraphQL API.
+
+\#### Tech Used
+
+PostgreSQL | Prisma | GraphQL | Node | Typescript | KeystoneJS CMS | Digital Ocean
+
+\[GitHub Repo\]([https://github.com/ryan3738/bellingham3d-backend](https://github.com/ryan3738/bellingham3d-backend "https://github.com/ryan3738/bellingham3d-backend"))
