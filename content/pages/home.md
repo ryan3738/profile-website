@@ -14,7 +14,7 @@ blocks:
         link: /posts
     image:
       src: >-
-        http://res.cloudinary.com/ryan3738/image/upload/v1634600032/Profile_Pic_czp2zq.jpg
+        http://res.cloudinary.com/ryan3738/image/upload/v1639522057/ryan-website/Profile_Pic_tjqtek.jpg
       alt: Ryan Fraser's portrait
     color: default
     _template: hero
@@ -39,4 +39,3 @@ blocks:
     _template: features
 ---
 
-undefined
