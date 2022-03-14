@@ -35,6 +35,12 @@ blocks:
         text: >-
           PostgreSQL | Prisma | GraphQL | Node | Typescript | KeystoneJS CMS |
           Digital Ocean
+        tags:
+          - Typescript
+          - Node
+          - GraphQL
+          - Prisma
+          - PostgreSQL
     color: tint
     _template: features
 ---

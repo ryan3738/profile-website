@@ -232,6 +232,7 @@ type PagesBlocksFeaturesItems {
   icon: PagesBlocksFeaturesItemsIcon
   title: String
   text: String
+  tags: [String]
 }
 
 type PagesBlocksFeatures {
@@ -384,6 +385,7 @@ input PagesBlocksFeaturesItemsMutation {
   icon: PagesBlocksFeaturesItemsIconMutation
   title: String
   text: String
+  tags: [String]
 }
 
 input PagesBlocksFeaturesMutation {

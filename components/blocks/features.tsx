@@ -16,6 +16,9 @@ export const Feature = ({ featuresColor, data }) => {
       {data.text && (
         <p className="text-base opacity-80 leading-relaxed">{data.text}</p>
       )}
+      {data.tags && (
+        <p className="text-base opacity-80 leading-relaxed">{data.text}</p>
+      )}
       {data.actions && <Actions actions={data.actions} />}
     </div>
   );
