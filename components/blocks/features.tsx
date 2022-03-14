@@ -5,7 +5,7 @@ import { Icon } from "../icon";
 
 export const Feature = ({ featuresColor, data }) => {
   return (
-    <div
+    <section
       className="flex-1 flex flex-col gap-6 text-center items-center lg:items-start lg:text-left max-w-xl mx-auto"
       style={{ flexBasis: "16rem" }}
     >
@@ -17,10 +17,14 @@ export const Feature = ({ featuresColor, data }) => {
         <p className="text-base opacity-80 leading-relaxed">{data.text}</p>
       )}
       {data.tags && (
-        <p className="text-base opacity-80 leading-relaxed">{data.text}</p>
+        <ul className="flex flex-row flex-wrap items-start gap-6 mx-auto max-w-xl my-auto">
+        {data.tags.map((tag) => (
+          <li className=" flex items-center justify-center leading-relaxed shadow bg-teal-600 rounded-full p-1 px-4 text-center">{tag}</li>
+          ))}
+        </ul>
       )}
       {data.actions && <Actions actions={data.actions} />}
-    </div>
+    </section>
   );
 };
 

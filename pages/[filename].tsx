@@ -31,6 +31,7 @@ export const getStaticProps = async ({ params }) => {
                   }
                   title
                   text
+                  tags
                 }
               }
               ... on PagesBlocksContent {
