@@ -2,11 +2,7 @@
 blocks:
   - tagline: Software Engineer
     headline: 'Hi, I''m Ryan Fraser a Full Stack Software Engineer'
-    text: >-
-      I'm a Software Developer living in Bellingham, WA interested in creating
-      responsive, scalable web applications. I'm currently using React.js,
-      Next.js, HTML, CSS, Javascript, Typescript, PostgreSQL, & Node. When I'm
-      not coding you can find me mountain biking, cooking, or traveling!
+    text: 'I live in Bellingham, WA, and specialize in full stack web applications.'
     actions:
       - label: Projects
         type: link
