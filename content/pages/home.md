@@ -25,7 +25,7 @@ blocks:
           name: code
         title: Front End
         text: >-
-          React.js | Next.js | JavaScript | TypeScript | GraphQL |
+          React.js | Next.js | HTML5 | CSS | JavaScript | TypeScript | GraphQL |
           Styled-Components
       - icon:
           color: purple
