@@ -2,7 +2,7 @@
 blocks:
   - tagline: Software Engineer
     headline: 'Hi, I''m Ryan Fraser a Full Stack Software Engineer'
-    text: 'I live in Bellingham, WA, and specialize in full stack web applications.'
+    text: Take a look around at my work and see what we can create together.
     actions:
       - label: Projects
         type: link
