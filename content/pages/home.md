@@ -1,7 +1,7 @@
 ---
 blocks:
-  - tagline: ''
-    headline: 'Hi, my name is Ryan Fraser'
+  - tagline: Software Engineer
+    headline: 'Hi, I''m Ryan Fraser a Full Stack Software Engineer'
     text: >-
       I'm a Software Developer living in Bellingham, WA interested in creating
       responsive, scalable web applications. I'm currently using React.js,
