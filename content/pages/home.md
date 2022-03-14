@@ -4,6 +4,10 @@ blocks:
     headline: 'Hi, I''m Ryan Fraser a Full Stack Software Engineer'
     text: Take a look around at my work and see what we can create together.
     actions:
+      - label: Action Label
+        type: button
+        icon: true
+        link: /
       - label: Projects
         type: link
         icon: true
@@ -21,8 +25,8 @@ blocks:
           name: code
         title: Front End
         text: >-
-          React.js | Next.js | Javascript | Typescript | Vercel | GraphQL |
-          Apollo Client | Styled-Components
+          React.js | Next.js | JavaScript | TypeScript | GraphQL |
+          Styled-Components
       - icon:
           color: purple
           style: float
