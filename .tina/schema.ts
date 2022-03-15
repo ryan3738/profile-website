@@ -325,6 +325,7 @@ const heroBlockSchema: TinaTemplate = {
       type: "object",
       list: true,
       ui: {
+        component: "groupList",
         defaultItem: {
           label: "Action Label",
           type: "button",
@@ -466,6 +467,7 @@ export default defineSchema({
               name: "nav",
               list: true,
               ui: {
+                component: "groupList",
                 defaultItem: {
                   href: "home",
                   label: "Home",

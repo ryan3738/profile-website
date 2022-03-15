@@ -300,6 +300,7 @@
               "name": "nav",
               "list": true,
               "ui": {
+                "component": "groupList",
                 "defaultItem": {
                   "href": "home",
                   "label": "Home"
@@ -648,6 +649,7 @@
                   "type": "object",
                   "list": true,
                   "ui": {
+                    "component": "groupList",
                     "defaultItem": {
                       "label": "Action Label",
                       "type": "button",
