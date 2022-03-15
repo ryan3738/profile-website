@@ -1084,7 +1084,7 @@
                       "label": "Text",
                       "name": "text",
                       "ui": {
-                        "component": "textarea"
+                        "component": "markdown"
                       },
                       "namespace": [
                         "pages",
