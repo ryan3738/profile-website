@@ -55,7 +55,7 @@ blocks:
           style: float
           name: ''
         image: >-
-          https://res.cloudinary.com/ryan3738/image/upload/v1639522057/ryan-website/Profile_Pic_tjqtek.jpg
+          https://res.cloudinary.com/ryan3738/image/upload/v1647382515/ryan-website/portfolioHome_lgyxxs.jpg
         title: RyanFraser.dev
         text: >-
           The site you are currently on is made using React.js, TinaCMS, and
