@@ -228,11 +228,20 @@ type PagesBlocksFeaturesItemsIcon {
   name: String
 }
 
+type PagesBlocksFeaturesItemsActions {
+  label: String
+  type: String
+  icon: Boolean
+  link: String
+}
+
 type PagesBlocksFeaturesItems {
   icon: PagesBlocksFeaturesItemsIcon
+  image: String
   title: String
   text: String
   tags: [String]
+  actions: [PagesBlocksFeaturesItemsActions]
 }
 
 type PagesBlocksFeatures {
@@ -381,11 +390,20 @@ input PagesBlocksFeaturesItemsIconMutation {
   name: String
 }
 
+input PagesBlocksFeaturesItemsActionsMutation {
+  label: String
+  type: String
+  icon: Boolean
+  link: String
+}
+
 input PagesBlocksFeaturesItemsMutation {
   icon: PagesBlocksFeaturesItemsIconMutation
+  image: String
   title: String
   text: String
   tags: [String]
+  actions: [PagesBlocksFeaturesItemsActionsMutation]
 }
 
 input PagesBlocksFeaturesMutation {

@@ -16,23 +16,35 @@ blocks:
     _template: hero
   - items:
       - icon:
-          color: teal
-          style: float
-          name: code
-        title: Front End
-        text: ''
+          color: primary
+          style: ''
+          name: ball
+        image: >-
+          https://res.cloudinary.com/ryan3738/image/upload/v1647365918/ryan-website/custom_eka4z8.jpg
+        title: Bellingham 3D
+        text: >-
+          A full-stack eCommerce web app featuring a frontend coded using
+          React.js/Next.js and integrated with the backend using a GraphQL API.
         tags:
           - React.js
           - Next.js
-          - HTML5
-          - CSS
+          - HTML5/CSS
           - JavaScript
+        actions:
+          - label: Visit
+            type: link
+            icon: true
+            link: 'https://bellingham3d.com/'
       - icon:
-          color: purple
-          style: float
-          name: code
-        title: Back End
-        text: ''
+          color: primary
+          style: ''
+          name: ''
+        image: >-
+          https://res.cloudinary.com/ryan3738/image/upload/v1647366203/ryan-website/frasersHome_lrpzsd.jpg
+        title: Frasers
+        text: >-
+          Website for Frasers Gourmet Hideaway Restaurant with a CMS and
+          authentication to allow for menu & website changes.
         tags:
           - Node
           - Typescript
@@ -40,8 +52,7 @@ blocks:
           - MongoDB
           - PostgreSQL
           - GraphQL
-          - Prisma
-    color: tint
+    color: default
     _template: features
 ---
 

@@ -1,5 +1,6 @@
 import type { TinaTemplate } from "@tinacms/cli";
 import { iconSchema } from "./Icon";
+import { actionSchema } from "./Action";
 
 const defaultFeature = {
   title: "Here's Another Feature",
@@ -35,6 +36,11 @@ const featureBlockSchema: TinaTemplate = {
       fields: [
         iconSchema,
         {
+          type: "image",
+          name: "image",
+          label: "Image",
+        },
+        {
           type: "string",
           label: "Title",
           name: "title",
@@ -43,6 +49,9 @@ const featureBlockSchema: TinaTemplate = {
           type: "string",
           label: "Text",
           name: "text",
+          ui: {
+            component: "textarea",
+          },
         },
         {
           type: "string",
@@ -50,8 +59,10 @@ const featureBlockSchema: TinaTemplate = {
           name: "tags",
           list: true,
         },
+        actionSchema,
       ],
     },
+
     {
       type: "string",
       label: "Color",
