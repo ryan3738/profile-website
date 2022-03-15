@@ -84,6 +84,7 @@ fragment PagesParts on Pages {
         }
         title
         text
+        tags
       }
       color
     }

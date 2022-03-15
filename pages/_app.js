@@ -26,6 +26,36 @@ const App = ({ Component, pageProps }) => {
               import("react-tinacms-editor").then(({ MarkdownFieldPlugin }) => {
                 cms.plugins.add(MarkdownFieldPlugin);
               });
+              import('tinacms').then(({ GroupListFieldPlugin }) => {
+                cms.fields.add({
+                  ...GroupListFieldPlugin,
+                  name: 'groupList',
+                  Component: props => {
+                    const field = {
+                      ...props.field,
+                      itemProps: item => {
+                        return {
+                          ...item,
+                          label:
+                            item.name ||
+                            item.title ||
+                            item.label ||
+                            item.alt ||
+                            item.day,
+                        };
+                      },
+                    };
+                    return (
+                      <GroupListFieldPlugin.Component
+                        {...props}
+                        // TODO: look for type error of field
+                        // @ts-ignore
+                        field={field}
+                      />
+                    );
+                  },
+                });
+              });
             }}
             documentCreatorCallback={{
               /**

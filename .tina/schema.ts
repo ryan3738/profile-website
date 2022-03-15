@@ -166,6 +166,7 @@ const defaultFeature = {
     style: "float",
     name: "",
   },
+  tags: ["hot", "new", "cool"],
 };
 
 const featureBlockShema: TinaTemplate = {
@@ -183,6 +184,7 @@ const featureBlockShema: TinaTemplate = {
       name: "items",
       list: true,
       ui: {
+        component: "groupList",
         defaultItem: {
           ...defaultFeature,
         },
@@ -198,6 +200,12 @@ const featureBlockShema: TinaTemplate = {
           type: "string",
           label: "Text",
           name: "text",
+        },
+        {
+          type: "string",
+          label: "Tags",
+          name: "tags",
+          list: true,
         },
       ],
     },
@@ -317,6 +325,7 @@ const heroBlockSchema: TinaTemplate = {
       type: "object",
       list: true,
       ui: {
+        component: "groupList",
         defaultItem: {
           label: "Action Label",
           type: "button",
@@ -458,6 +467,7 @@ export default defineSchema({
               name: "nav",
               list: true,
               ui: {
+                component: "groupList",
                 defaultItem: {
                   href: "home",
                   label: "Home",

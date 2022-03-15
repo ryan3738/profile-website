@@ -4,12 +4,8 @@ blocks:
     headline: 'Hi, I''m Ryan Fraser a Full Stack Software Engineer'
     text: Take a look around at my work and see what we can create together.
     actions:
-      - label: Action Label
-        type: button
-        icon: true
-        link: /
       - label: Projects
-        type: link
+        type: button
         icon: true
         link: /posts
     image:
@@ -24,17 +20,27 @@ blocks:
           style: float
           name: code
         title: Front End
-        text: >-
-          React.js | Next.js | HTML5 | CSS | JavaScript | TypeScript | GraphQL |
-          Styled-Components
+        text: ''
+        tags:
+          - React.js
+          - Next.js
+          - HTML5
+          - CSS
+          - JavaScript
       - icon:
           color: purple
           style: float
           name: code
         title: Back End
-        text: >-
-          PostgreSQL | Prisma | GraphQL | Node | Typescript | KeystoneJS CMS |
-          Digital Ocean
+        text: ''
+        tags:
+          - Node
+          - Typescript
+          - Express
+          - MongoDB
+          - PostgreSQL
+          - GraphQL
+          - Prisma
     color: tint
     _template: features
 ---
