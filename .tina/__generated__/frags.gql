@@ -82,9 +82,17 @@ fragment PagesParts on Pages {
           style
           name
         }
+        image
         title
         text
         tags
+        actions {
+          __typename
+          label
+          type
+          icon
+          link
+        }
       }
       color
     }
