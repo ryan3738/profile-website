@@ -10,10 +10,6 @@
       {
         "href": "home",
         "label": "Home"
-      },
-      {
-        "href": "posts",
-        "label": "Projects"
       }
     ]
   },
