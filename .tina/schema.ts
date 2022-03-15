@@ -1,162 +1,6 @@
 import { defineSchema } from "@tinacms/cli";
-import type { TinaCollection, TinaTemplate, TinaField } from "@tinacms/cli";
-
-const iconSchema: TinaField = {
-  type: "object",
-  label: "Icon",
-  name: "icon",
-  fields: [
-    {
-      type: "string",
-      label: "Color",
-      name: "color",
-      options: [
-        {
-          label: "Primary",
-          value: "primary",
-        },
-        {
-          label: "Blue",
-          value: "blue",
-        },
-        {
-          label: "Teal",
-          value: "teal",
-        },
-        {
-          label: "Green",
-          value: "green",
-        },
-        {
-          label: "Red",
-          value: "red",
-        },
-        {
-          label: "Pink",
-          value: "pink",
-        },
-        {
-          label: "Purple",
-          value: "purple",
-        },
-        {
-          label: "Orange",
-          value: "orange",
-        },
-        {
-          label: "Yellow",
-          value: "yellow",
-        },
-      ],
-    },
-    {
-      name: "style",
-      label: "Style",
-      type: "string",
-      options: [
-        {
-          label: "Circle",
-          value: "circle",
-        },
-        {
-          label: "Float",
-          value: "float",
-        },
-      ],
-    },
-    {
-      type: "string",
-      label: "Icon",
-      name: "name",
-      options: [
-        {
-          label: "Random",
-          value: "",
-        },
-        {
-          label: "Aperture",
-          value: "aperture",
-        },
-        {
-          label: "Code Block",
-          value: "code",
-        },
-        {
-          label: "Like",
-          value: "like",
-        },
-        {
-          label: "Map",
-          value: "map",
-        },
-        {
-          label: "Palette",
-          value: "palette",
-        },
-        {
-          label: "Pie Chart",
-          value: "chart",
-        },
-        {
-          label: "Pin",
-          value: "pin",
-        },
-        {
-          label: "Shield",
-          value: "shield",
-        },
-        {
-          label: "Setting Sliders",
-          value: "settings",
-        },
-        {
-          label: "Store",
-          value: "store",
-        },
-        {
-          label: "Tennis Ball",
-          value: "ball",
-        },
-        {
-          label: "Test Tube",
-          value: "tube",
-        },
-        {
-          label: "Trophy",
-          value: "trophy",
-        },
-        {
-          label: "User",
-          value: "user",
-        },
-        {
-          label: "Beer",
-          value: "beer",
-        },
-        {
-          label: "Chat",
-          value: "chat",
-        },
-        {
-          label: "Cloud",
-          value: "cloud",
-        },
-        {
-          label: "Coffee",
-          value: "coffee",
-        },
-        {
-          label: "World",
-          value: "world",
-        },
-        {
-          label: "Tina",
-          value: "tina",
-        },
-      ],
-    },
-  ],
-};
+import type { TinaTemplate, TinaField } from "@tinacms/cli";
+import { iconSchema } from "./Icon";
 
 const defaultFeature = {
   title: "Here's Another Feature",
@@ -169,7 +13,7 @@ const defaultFeature = {
   tags: ["hot", "new", "cool"],
 };
 
-const featureBlockShema: TinaTemplate = {
+const featureBlockSchema: TinaTemplate = {
   name: "features",
   label: "Features",
   ui: {
@@ -290,6 +134,48 @@ const testimonialBlockSchema: TinaTemplate = {
   ],
 };
 
+const actionSchema: TinaField = {
+  label: "Actions",
+  name: "actions",
+  type: "object",
+  list: true,
+  ui: {
+    component: "groupList",
+    defaultItem: {
+      label: "Action Label",
+      type: "button",
+      icon: true,
+      link: "/",
+    },
+  },
+  fields: [
+    {
+      label: "Label",
+      name: "label",
+      type: "string",
+    },
+    {
+      label: "Type",
+      name: "type",
+      type: "string",
+      options: [
+        { label: "Button", value: "button" },
+        { label: "Link", value: "link" },
+      ],
+    },
+    {
+      label: "Icon",
+      name: "icon",
+      type: "boolean",
+    },
+    {
+      label: "Link",
+      name: "link",
+      type: "string",
+    },
+  ],
+};
+
 const heroBlockSchema: TinaTemplate = {
   name: "hero",
   label: "Hero",
@@ -319,47 +205,7 @@ const heroBlockSchema: TinaTemplate = {
         component: "markdown",
       },
     },
-    {
-      label: "Actions",
-      name: "actions",
-      type: "object",
-      list: true,
-      ui: {
-        component: "groupList",
-        defaultItem: {
-          label: "Action Label",
-          type: "button",
-          icon: true,
-          link: "/",
-        },
-      },
-      fields: [
-        {
-          label: "Label",
-          name: "label",
-          type: "string",
-        },
-        {
-          label: "Type",
-          name: "type",
-          type: "string",
-          options: [
-            { label: "Button", value: "button" },
-            { label: "Link", value: "link" },
-          ],
-        },
-        {
-          label: "Icon",
-          name: "icon",
-          type: "boolean",
-        },
-        {
-          label: "Link",
-          name: "link",
-          type: "string",
-        },
-      ],
-    },
+    actionSchema,
     {
       type: "object",
       label: "Image",
@@ -661,7 +507,7 @@ export default defineSchema({
           label: "Sections",
           templates: [
             heroBlockSchema,
-            featureBlockShema,
+            featureBlockSchema,
             contentBlockSchema,
             testimonialBlockSchema,
           ],
