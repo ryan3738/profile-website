@@ -17,9 +17,9 @@ export const Feature = ({ featuresColor, data }) => {
         <p className="text-base opacity-80 leading-relaxed">{data.text}</p>
       )}
       {data.tags && (
-        <ul className="flex flex-row flex-wrap items-start gap-6 mx-auto max-w-xl my-auto">
+        <ul className="flex flex-row flex-wrap gap-4  leading-relaxed">
         {data.tags.map((tag) => (
-          <li className=" flex items-center justify-center leading-relaxed shadow bg-teal-600 rounded-full p-1 px-4 text-center">{tag}</li>
+          <li key={tag} className="flex items-center justify-center leading-relaxed shadow bg-teal-500 rounded-full p-1 px-4 text-center">{tag}</li>
           ))}
         </ul>
       )}
