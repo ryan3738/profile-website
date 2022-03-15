@@ -9,14 +9,12 @@ excerpt: >-
   allow for menu & website changes.
 ---
 
+#### Description:
 
+Business website for Frasers Gourmet Hideaway with a CMS and authentication to allow for menu & website changes.
 
+#### Tech Used:
 
-
-#### Description: 
-Business website for Frasers Gourmet Hideaway with a basic CMS and authentication to allow for menu & website changes.
-
-####  Tech Used:
 Next.js | Javascript | Typescript | Vercel | React.js | Netlify CMS | NextAuth | Yarn | ESlint | Prettier
 
 [Live Web Site](https://frasersgh.com/)
