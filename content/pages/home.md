@@ -4,12 +4,8 @@ blocks:
     headline: 'Hi, I''m Ryan Fraser a Full Stack Software Engineer'
     text: Take a look around at my work and see what we can create together.
     actions:
-      - label: Action Label
-        type: button
-        icon: true
-        link: /
       - label: Projects
-        type: link
+        type: button
         icon: true
         link: /posts
     image:
