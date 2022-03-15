@@ -54,12 +54,14 @@ blocks:
           color: ''
           style: float
           name: ''
+        image: >-
+          https://res.cloudinary.com/ryan3738/image/upload/v1639522057/ryan-website/Profile_Pic_tjqtek.jpg
         title: RyanFraser.dev
         text: >-
-          The site you are currently on is made using Next.js, TinaCMS, and
+          The site you are currently on is made using React.js, TinaCMS, and
           TailwindCSS
         tags:
-          - Next.js
+          - React.js
           - TinaCMS
           - TailwindCSS
         actions:
