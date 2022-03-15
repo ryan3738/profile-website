@@ -33,6 +33,12 @@ export const getStaticProps = async ({ params }) => {
                   title
                   text
                   tags
+                  actions {
+                  label
+                  type
+                  icon
+                  link
+                }
                 }
               }
               ... on PagesBlocksContent {

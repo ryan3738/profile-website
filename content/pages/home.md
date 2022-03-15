@@ -19,13 +19,14 @@ blocks:
         title: Bellingham 3D
         text: >-
           A full-stack eCommerce web app featuring a frontend coded using
-          React.js/Next.js and integrated with the backend using a GraphQL API.
+          React.js/Next.js and integrated with Node.js using a GraphQL API.
         tags:
-          - Express.js
           - Node.js
-          - Next.js
-          - TypeScript
-          - HTML5/CSS
+          - Express.js
+          - Typescript
+          - PostgreSQL
+          - React.js/Next.js
+          - GraphQL
         actions:
           - label: Visit
             type: link
@@ -45,11 +46,30 @@ blocks:
           - React.js
           - JavaScript
           - HTML/CSS
+          - TinaCMS
         actions:
           - label: Visit
             type: link
             icon: true
             link: 'https://frasersgh.com/'
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        image: >-
+          https://res.cloudinary.com/ryan3738/image/upload/v1639522057/ryan-website/Profile_Pic_tjqtek.jpg
+        title: Portfolio
+        text: This site was made
+        tags:
+          - Next.js
+          - TypeScript
+          - HTML/CSS
+          - TinaCMS
+        actions:
+          - label: You're Already Here
+            type: link
+            icon: true
+            link: /
     color: default
     _template: features
 ---

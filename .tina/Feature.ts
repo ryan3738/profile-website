@@ -50,7 +50,7 @@ const featureBlockSchema: TinaTemplate = {
           label: "Text",
           name: "text",
           ui: {
-            component: "textarea",
+            component: "markdown",
           },
         },
         {
