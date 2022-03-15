@@ -50,6 +50,23 @@ blocks:
             type: link
             icon: true
             link: 'https://frasersgh.com/'
+      - icon:
+          color: ''
+          style: float
+          name: ''
+        title: RyanFraser.dev
+        text: >-
+          The site you are currently on is made using Next.js, TinaCMS, and
+          TailwindCSS
+        tags:
+          - Next.js
+          - TinaCMS
+          - TailwindCSS
+        actions:
+          - label: You're Already Here
+            type: link
+            icon: true
+            link: /
     color: default
     _template: features
 ---
