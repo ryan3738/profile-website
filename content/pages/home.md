@@ -58,11 +58,12 @@ blocks:
           https://res.cloudinary.com/ryan3738/image/upload/v1647382698/ryan-website/portfolioHome3_xnhofc.jpg
         title: RyanFraser.dev
         text: >-
-          The site you are currently on is made using React.js, TinaCMS, and
-          TailwindCSS
+          This is a TinaCMS Next.js app, where you can edit content live on the
+          page. The git-based CMS exposes the models via a GraphQL API.
         tags:
-          - React.js
+          - Next.js
           - TinaCMS
+          - GraphQL
           - TailwindCSS
         actions:
           - label: You're Already Here
