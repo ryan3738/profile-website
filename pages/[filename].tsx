@@ -29,6 +29,7 @@ export const getStaticProps = async ({ params }) => {
                     color
                     style
                   }
+                  image
                   title
                   text
                   tags
