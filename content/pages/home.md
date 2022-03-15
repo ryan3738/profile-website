@@ -57,14 +57,16 @@ blocks:
           style: float
           name: ''
         image: >-
-          https://res.cloudinary.com/ryan3738/image/upload/v1639522057/ryan-website/Profile_Pic_tjqtek.jpg
-        title: Portfolio
-        text: This site was made
+          https://res.cloudinary.com/ryan3738/image/upload/v1647382698/ryan-website/portfolioHome3_xnhofc.jpg
+        title: RyanFraser.dev
+        text: >-
+          This is a TinaCMS Next.js app, where you can edit content live on the
+          page. The git-based CMS exposes the models via a GraphQL API.
         tags:
           - Next.js
-          - TypeScript
-          - HTML/CSS
           - TinaCMS
+          - GraphQL
+          - TailwindCSS
         actions:
           - label: You're Already Here
             type: link
