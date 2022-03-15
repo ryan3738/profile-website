@@ -4,6 +4,7 @@ import Markdown from "react-markdown";
 import { BsArrowRight } from "react-icons/bs";
 import { ThemeContext } from "./theme";
 import format from "date-fns/format";
+import Image from "next/image";
 
 export const Posts = ({ data }) => {
   const theme = React.useContext(ThemeContext);
@@ -41,6 +42,18 @@ export const Posts = ({ data }) => {
               key={post.id}
               className="group block px-8 py-10 mb-8 last:mb-0 bg-gray-50 bg-gradient-to-br from-gray-50 to-gray-100 dark:bg-gray-700 dark:from-gray-800 dark:to-gray-700 rounded-md shadow-sm transition-all duration-150 ease-out hover:shadow-md hover:to-gray-50 dark:hover:to-gray-600"
             >
+              {post.values.heroImg && (
+                <div className="px-6 max-w-4xl lg:max-w-6xl flex justify-center mx-auto">
+                  <Image
+                    src={post.values.heroImg}
+                    alt={post.values.title}
+                    className="mb-14 block h-auto max-w-full mx-auto object-cover rounded-md"
+                    width={640}
+                    height={360}
+                    layout="intrinsic"
+                  />
+                </div>
+              )}
               <h3
                 className={`text-gray-900 dark:text-white text-3xl font-semibold title-font mb-5 transition-all duration-150 ease-out ${
                   titleColorClasses[theme.color]
@@ -62,15 +75,15 @@ export const Posts = ({ data }) => {
                     alt={post.data.author?.data?.name}
                   />
                 </div>
-                <p className="text-sm font-medium text-gray-600 group-hover:text-gray-800 dark:text-gray-200 dark:group-hover:text-white">
+                <span className="text-sm font-medium text-gray-600 group-hover:text-gray-800 dark:text-gray-200 dark:group-hover:text-white">
                   {post.data.author?.data.name}
-                </p>
+                </span>
                 <span className="font-bold text-gray-200 dark:text-gray-500 mx-2">
                   —
                 </span>
-                <p className="text-sm text-gray-400 group-hover:text-gray-500 dark:text-gray-300 dark:group-hover:text-gray-150">
+                <span className="text-sm text-gray-400 group-hover:text-gray-500 dark:text-gray-300 dark:group-hover:text-gray-150">
                   {formattedDate}
-                </p>
+                </span>
               </div>
             </a>
           </Link>

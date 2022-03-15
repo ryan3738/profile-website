@@ -4,6 +4,7 @@ import { Container } from "./container";
 import { Section } from "./section";
 import { ThemeContext } from "./theme";
 import format from 'date-fns/format'
+import Image from "next/image";
 
 export const Post = ({ data }) => {
   const theme = React.useContext(ThemeContext);
@@ -69,10 +70,13 @@ export const Post = ({ data }) => {
       </Container>
       {data.heroImg && (
         <div className="px-6 max-w-4xl lg:max-w-6xl flex justify-center mx-auto">
-          <img
+          <Image
             src={data.heroImg}
+            alt={data.title}
             className="mb-14 block h-auto max-w-full mx-auto object-cover rounded-md"
-            style={{ maxHeight: "80vh" }}
+            width={1280}
+            height={720}
+            layout="intrinsic"
           />
         </div>
       )}
