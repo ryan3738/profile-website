@@ -2,11 +2,15 @@ import { getStaticPropsForTina, staticRequest } from "tinacms";
 import { Blocks } from "../components/blocks";
 import { layoutQueryFragment } from "../components/layout";
 import type { PagesDocument } from "../.tina/__generated__/types";
+import FourOhFour from "./404";
 
 export default function HomePage(
   props: AsyncReturnType<typeof getStaticProps>["props"]
 ) {
-  return <Blocks {...props.data.getPagesDocument.data} />;
+  if (props.data && props.data.getPagesDocument) {
+  return <Blocks {...props.data.getPagesDocument.data} />
+  }
+  return <FourOhFour />;
 }
 
 export const getStaticProps = async ({ params }) => {
