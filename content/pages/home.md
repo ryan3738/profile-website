@@ -21,7 +21,6 @@ blocks:
           A full-stack eCommerce web app featuring a frontend coded using
           React.js/Next.js and integrated with the backend using a GraphQL API.
         tags:
-          - Express.js
           - Node.js
           - Next.js
           - TypeScript
